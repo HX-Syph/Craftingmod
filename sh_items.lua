@@ -6,6 +6,22 @@
 			ITEMS: GENERIC
 ---------------------------------------------------------------------------*/
 
+
+--[[
+Basic framework on how to add new items and how each value works
+
+CRAFTINGMOD.Items = {
+
+	ITEMNAME  	=	{ - Name of the new item to be called DO NOT add spaces here, try to use underscores if needed ex: Big_log
+	Name		=	"ITEM NAME", - What them item should be called in the shop ex: "wood"
+	Model		= 	"models/props/eryk/craftingmod/woodlog.mdl", - Model path of the item
+	Weight 		= 	Value, - How heavy the item is (recommended weight is 1-5) 
+	Value 		=	Value, - How much the tiem is worth
+	Skin 		=	0,  -IF the model has a skin
+	};
+
+]]--
+
 CRAFTINGMOD.Items = {
 
 	Woodlog  	=	{
