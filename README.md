@@ -55,16 +55,17 @@ function (Serversided) that allows you to add items to the inventory.
  `CraftingMod:AddExperience(Name of level, amount, player)`
 function (Serversided) that allows you to add experience to a specific level.
 
-Example: 'CraftingMod:AddItems(CraftingMod.Items["RockPickaxe"], 1, player)''
+Example: `CraftingMod:AddItems(CraftingMod.Items["RockPickaxe"], 1, player)`
 
-It will add 1 rockpickaxe from the Items table to the given player.
+> It will add 1 rockpickaxe from the Items table to the given player.
 
 Example: `CraftingMod:AddItems("Mining", 200, player)`
 
-It will add 200EXP to the given player
+> It will add 200EXP to the given player
 Much more... There is much more content, but I wont bother you anymore!
-Console commands:
 
+
+Console commands:
 To save mining area, lumber area and merchant npc so that they spawn at server re-start CraftingMod_SaveEntities
 
 To delete entities and the save file of their position. CraftingMod_DeleteEntiteis
